@@ -1,1 +1,16 @@
 /* your code */
+table{
+	border-radius: 10px;
+}
+table thead {
+  background-color: navy; /* Sets the header's background color */
+  color: white; /* Ensures the header text is readable */
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: white; /* Applies white background to odd rows in the body */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: lightgray; /* Applies grey background to even rows in the body */
+}
